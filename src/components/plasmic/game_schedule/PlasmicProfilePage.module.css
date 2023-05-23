@@ -1,0 +1,968 @@
+.root {
+  display: grid;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    1fr minmax(0, var(--plsmc-wide-chunk)) var(--plsmc-viewport-gap)
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    var(--plsmc-viewport-gap) minmax(0, var(--plsmc-wide-chunk)) 1fr;
+}
+:where(.root > *) {
+  grid-column: 4;
+}
+.profilePage {
+  background: rgba(0, 0, 0, 1);
+  width: 1440px;
+  height: 1024px;
+  display: block;
+  overflow: hidden;
+}
+.sectionSmall {
+  background: rgba(84, 84, 84, 1);
+  width: 984px;
+  height: 78px;
+  display: flex;
+  position: absolute;
+  top: 163px;
+  left: 60px;
+  flex-direction: column;
+  border-radius: 7.303px;
+  padding: 36.518px;
+}
+.sectionSmall > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 14.607px);
+  height: calc(100% + 14.607px);
+}
+.sectionSmall > :global(.__wab_flex-container) > *,
+.sectionSmall > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.sectionSmall > :global(.__wab_flex-container) > picture > img,
+.sectionSmall
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 14.607px;
+}
+.icon {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.image2 {
+  background: url("./images/image2.png") center center / cover no-repeat;
+  width: 25px;
+  height: 0%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  right: -24px;
+}
+.freeBox__lm8Y {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.anNftLikeNoOther {
+  display: block;
+  font-size: 18.259px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+}
+.dontMissOutOnTheReleaseOfOurNewNftSignUpBelowToReceiveUpdatesWhenWeGoLiveOn189DontMissOutOnTheReleaseOfOurNewNftSignUpBelowToReceiveUpdatesWhenWeGoLiveOn189DontMissOutOnTheReleaseOfOurNewNft {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+}
+.sectionSmall2 {
+  background: rgba(84, 84, 84, 1);
+  width: 984px;
+  height: 78px;
+  display: flex;
+  position: absolute;
+  top: 491px;
+  left: 60px;
+  flex-direction: column;
+  border-radius: 7.303px;
+  padding: 36.518px;
+}
+.sectionSmall2 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 14.607px);
+  height: calc(100% + 14.607px);
+}
+.sectionSmall2 > :global(.__wab_flex-container) > *,
+.sectionSmall2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.sectionSmall2 > :global(.__wab_flex-container) > picture > img,
+.sectionSmall2
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 14.607px;
+}
+.icon2 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.image3 {
+  background: url("./images/image2.png") center center / cover no-repeat;
+  width: 25px;
+  height: 0%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  right: -24px;
+}
+.text2 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.anNftLikeNoOther2 {
+  display: block;
+  font-size: 18.259px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+}
+.dontMissOutOnTheReleaseOfOurNewNftSignUpBelowToReceiveUpdatesWhenWeGoLiveOn189DontMissOutOnTheReleaseOfOurNewNftSignUpBelowToReceiveUpdatesWhenWeGoLiveOn189DontMissOutOnTheReleaseOfOurNewNft2 {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+}
+.sectionSmall3 {
+  background: rgba(84, 84, 84, 1);
+  width: 984px;
+  height: 78px;
+  display: flex;
+  position: absolute;
+  top: 274px;
+  left: 60px;
+  flex-direction: column;
+  border-radius: 7.303px;
+  padding: 36.518px;
+}
+.sectionSmall3 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 14.607px);
+  height: calc(100% + 14.607px);
+}
+.sectionSmall3 > :global(.__wab_flex-container) > *,
+.sectionSmall3 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.sectionSmall3 > :global(.__wab_flex-container) > picture > img,
+.sectionSmall3
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 14.607px;
+}
+.icon3 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.image4 {
+  background: url("./images/image2.png") center center / cover no-repeat;
+  width: 25px;
+  height: 0%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  right: -24px;
+}
+.text3 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.anNftLikeNoOther3 {
+  display: block;
+  font-size: 18.259px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+}
+.dontMissOutOnTheReleaseOfOurNewNftSignUpBelowToReceiveUpdatesWhenWeGoLiveOn189DontMissOutOnTheReleaseOfOurNewNftSignUpBelowToReceiveUpdatesWhenWeGoLiveOn189DontMissOutOnTheReleaseOfOurNewNft3 {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+}
+.sectionSmall4 {
+  background: rgba(84, 84, 84, 1);
+  width: 984px;
+  height: 78px;
+  display: flex;
+  position: absolute;
+  top: 380px;
+  left: 60px;
+  flex-direction: column;
+  border-radius: 7.303px;
+  padding: 36.518px;
+}
+.sectionSmall4 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 14.607px);
+  height: calc(100% + 14.607px);
+}
+.sectionSmall4 > :global(.__wab_flex-container) > *,
+.sectionSmall4 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.sectionSmall4 > :global(.__wab_flex-container) > picture > img,
+.sectionSmall4
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 14.607px;
+}
+.icon4 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.image5 {
+  background: url("./images/image2.png") center center / cover no-repeat;
+  width: 25px;
+  height: 0%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  right: -24px;
+}
+.text4 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.anNftLikeNoOther4 {
+  display: block;
+  font-size: 18.259px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+}
+.dontMissOutOnTheReleaseOfOurNewNftSignUpBelowToReceiveUpdatesWhenWeGoLiveOn189DontMissOutOnTheReleaseOfOurNewNftSignUpBelowToReceiveUpdatesWhenWeGoLiveOn189DontMissOutOnTheReleaseOfOurNewNft4 {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+}
+.footer {
+  width: 1338px;
+  height: 181px;
+  display: block;
+  position: absolute;
+  top: 832px;
+  left: 12px;
+}
+.bottom {
+  width: 149px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: 171px;
+  left: 21px;
+}
+.text__fZw6V {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(118, 118, 118, 1);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 105.86%;
+}
+.right {
+  width: 420px;
+  height: 68px;
+  display: block;
+  position: absolute;
+  top: 81px;
+  left: 918px;
+}
+.text__tmvXu {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 34.28%;
+  left: 0%;
+  width: 7.28%;
+  height: 67.07%;
+}
+.text__jlIBz {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 34.28%;
+  left: 41.42%;
+  width: 9.44%;
+  height: 41.73%;
+  transform: translate(-0.012999999999919964px, -0.024999999999977263px);
+}
+.text___33Lxm {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 34.28%;
+  left: 88.09%;
+  width: 11.86%;
+  height: 41.73%;
+  transform: translate(0.15200000000004366px, -0.024999999999977263px);
+}
+.text__nn0Rx {
+  display: block;
+  font-size: 7.303px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 100%;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 8.09%;
+  height: 14.9%;
+}
+.text__duwiq {
+  display: block;
+  font-size: 7.303px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 100%;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 0%;
+  left: 41.42%;
+  width: 11.05%;
+  height: 14.9%;
+  transform: translate(-0.012999999999919964px, 0.4550000000000409px);
+}
+.text__zgIc {
+  display: block;
+  font-size: 7.303px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 100%;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 0%;
+  left: 88.09%;
+  width: 8.63%;
+  height: 14.9%;
+  transform: translate(0.15200000000004366px, 0.4550000000000409px);
+}
+.left {
+  width: 136px;
+  height: 77px;
+  display: block;
+  position: absolute;
+  top: 59px;
+  left: 21px;
+}
+.logo {
+  width: 75.43%;
+  height: 23.68%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.svg__xG32D {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 19px;
+  height: 18px;
+  display: block;
+  top: 0%;
+  left: 0%;
+}
+.nftlanding {
+  box-shadow: 0px 0px 0px 0.456px rgba(255, 255, 255, 1);
+  display: block;
+  font-size: 12.781px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 11.59%;
+  left: 24.41%;
+  transform: translate(-0.1769999999999996px, -0.04200000000000004px);
+}
+.svg__qzTd4 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #999;
+  width: 132.739px;
+  height: 23.005px;
+  display: block;
+  top: 53px;
+  left: 3px;
+}
+.divider {
+  width: 662px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.rectangle9 {
+  background: rgba(84, 84, 84, 1);
+  width: 100%;
+  height: 104.38%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.svg__qYyJ8 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 148px;
+  height: 144px;
+  display: block;
+  top: 18.94%;
+  left: 76.66%;
+}
+.svg__zYFs {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  display: block;
+  top: 4.58%;
+  left: 93.95%;
+}
+.svg__gBkG {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 60px;
+  height: 50px;
+  display: block;
+  top: 4.58%;
+  left: 88.05%;
+}
+.img {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 24px;
+  height: 24px;
+  display: block !important;
+  top: 93px;
+  left: 36px;
+  overflow: hidden;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.img > :global(.__wab_img-spacer) > img {
+  object-fit: cover;
+}
+.call {
+  width: 24px;
+  height: 24px;
+  display: block;
+  position: absolute;
+  top: 420px;
+  left: 898px;
+  overflow: hidden;
+}
+.hero {
+  width: 353px;
+  height: 53px;
+  display: block;
+  position: absolute;
+  top: 67px;
+  left: 80px;
+}
+.text5 {
+  width: 353px;
+  height: 53px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.text___3EZx4 {
+  display: block;
+  font-size: 43.821px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+.text__mGr4J {
+  display: block;
+  font-size: 7.303px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 100%;
+  color: rgba(255, 57, 152, 1);
+  position: absolute;
+  top: -37.74%;
+  left: 2.26%;
+  transform: translate(-0.0010000000000047748px, 0.3710000000000022px);
+}
+.graphic {
+  transform: translate(-0.08600000000001273px, 0.15400000000000347px);
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: absolute;
+  top: -28px;
+  left: 798px;
+}
+.svg__h7ADb {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ff8139;
+  filter: blur(94.37);
+  transform: translate(-0.24900000000002365px, -0.3299999999999841px);
+  width: 289px;
+  height: 289px;
+  display: block;
+  top: 0%;
+  left: 0%;
+}
+.svg__p4O3 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #ff3998;
+  filter: blur(94.37);
+  transform: translate(-0.023999999999887223px, -0.3510000000000062px);
+  width: 332px;
+  height: 332px;
+  display: block;
+  top: 0%;
+  left: 0%;
+}
+.design82A0Ada5644E4B87Ae4188Faf9684Ea311 {
+  background: url("./images/design82A0Ada5644E4B87Ae4188Faf9684Ea311.png") center center / cover no-repeat;
+  transform: translate(-0.1330000000000382px, 0px);
+  width: 0%;
+  height: 0%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.group32 {
+  width: 946px;
+  height: 38px;
+  display: block;
+  position: absolute;
+  top: 398px;
+  left: 80px;
+}
+.text__ckX0 {
+  display: block;
+  font-size: 36px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 20.93%;
+  height: 79.83%;
+}
+.svg__yucG6 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 32.671px;
+  height: 33.576px;
+  display: block;
+  top: 4px;
+  left: 913px;
+}
+.group31 {
+  width: 944px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 179px;
+  left: 80px;
+}
+.text___94WH {
+  display: block;
+  font-size: 36px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 20.98%;
+  height: 75.8%;
+}
+.svg__ozbZh {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 32.671px;
+  height: 33.576px;
+  display: block;
+  top: 6px;
+  left: 911px;
+}
+.group30 {
+  width: 945px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  top: 290px;
+  left: 80px;
+}
+.text__mx6Ia {
+  display: block;
+  font-size: 36px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 35.03%;
+  height: 73.27%;
+}
+.svg__dy5V {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 32.671px;
+  height: 33.576px;
+  display: block;
+  top: 6px;
+  left: 912px;
+}
+.group28 {
+  width: 936px;
+  height: 41px;
+  display: block;
+  position: absolute;
+  top: 510px;
+  left: 80px;
+}
+.text__c6JdW {
+  display: block;
+  font-size: 36px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 35.6%;
+  height: 71.47%;
+}
+.group20 {
+  width: 77px;
+  height: 41px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 859px;
+}
+.rectangle28 {
+  background: rgba(228, 55, 108, 1);
+  width: 100%;
+  height: 101.05%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 20px;
+}
+.svg__eZdx8 {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  transform: translate(-0.16099999999994452px, 0.19700000000000273px);
+  width: 30px;
+  height: 31px;
+  display: block;
+  top: 9.85%;
+  left: 53.78%;
+}
+.sectionSmall5 {
+  background: rgba(84, 84, 84, 1);
+  width: 984px;
+  height: 78px;
+  display: flex;
+  position: absolute;
+  top: 602px;
+  left: 60px;
+  flex-direction: column;
+  border-radius: 7.303px;
+  padding: 36.518px;
+}
+.sectionSmall5 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 14.607px);
+  height: calc(100% + 14.607px);
+}
+.sectionSmall5 > :global(.__wab_flex-container) > *,
+.sectionSmall5 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.sectionSmall5 > :global(.__wab_flex-container) > picture > img,
+.sectionSmall5
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 14.607px;
+}
+.icon5 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.image6 {
+  background: url("./images/image2.png") center center / cover no-repeat;
+  width: 25px;
+  height: 0%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  right: -24px;
+}
+.text6 {
+  width: 0px;
+  height: 0px;
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+}
+.anNftLikeNoOther5 {
+  display: block;
+  font-size: 18.259px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+}
+.dontMissOutOnTheReleaseOfOurNewNftSignUpBelowToReceiveUpdatesWhenWeGoLiveOn189DontMissOutOnTheReleaseOfOurNewNftSignUpBelowToReceiveUpdatesWhenWeGoLiveOn189DontMissOutOnTheReleaseOfOurNewNft5 {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 210px;
+}
+.group33 {
+  width: 936px;
+  height: 41px;
+  display: block;
+  position: absolute;
+  top: 621px;
+  left: 80px;
+}
+.text__cUmCo {
+  display: block;
+  font-size: 36px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 35.6%;
+  height: 71.47%;
+}
+.group21 {
+  width: 77px;
+  height: 41px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 859px;
+}
+.rectangle29 {
+  background: rgba(228, 55, 108, 1);
+  width: 100%;
+  height: 101.05%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 20px;
+}
+.svg__e706E {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  transform: translate(-0.16099999999994452px, 0.19700000000000273px);
+  width: 30px;
+  height: 31px;
+  display: block;
+  top: 9.85%;
+  left: 53.78%;
+}

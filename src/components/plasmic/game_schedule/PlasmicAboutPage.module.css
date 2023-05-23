@@ -1,0 +1,374 @@
+.root {
+  display: grid;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    1fr minmax(0, var(--plsmc-wide-chunk)) var(--plsmc-viewport-gap)
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    var(--plsmc-viewport-gap) minmax(0, var(--plsmc-wide-chunk)) 1fr;
+}
+:where(.root > *) {
+  grid-column: 4;
+}
+.aboutPage {
+  background: rgba(0, 0, 0, 1);
+  width: 1440px;
+  height: 1024px;
+  display: block;
+  overflow: hidden;
+}
+.footer {
+  width: 1338px;
+  height: 181px;
+  display: block;
+  position: absolute;
+  top: 820px;
+  left: 8px;
+}
+.bottom {
+  width: 149px;
+  height: 10px;
+  display: block;
+  position: absolute;
+  top: 171px;
+  left: 21px;
+}
+.text__ugr0K {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(118, 118, 118, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 149px;
+  height: 10px;
+}
+.right {
+  width: 420px;
+  height: 68px;
+  display: block;
+  position: absolute;
+  top: 81px;
+  left: 918px;
+}
+.text___1YXC {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 23px;
+  left: 0px;
+  width: 31px;
+  height: 45px;
+}
+.text__zTAo {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 23px;
+  left: 174px;
+  width: 40px;
+  height: 28px;
+  transform: translate(-0.012999999999919964px, -0.024999999999977263px);
+}
+.text___616Wg {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 23px;
+  left: 370px;
+  width: 50px;
+  height: 28px;
+  transform: translate(0.15200000000004366px, -0.024999999999977263px);
+}
+.text___4ITmy {
+  display: block;
+  font-size: 7.303px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 100%;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 34px;
+  height: 10px;
+}
+.text__jp0LQ {
+  display: block;
+  font-size: 7.303px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 100%;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 0px;
+  left: 174px;
+  width: 47px;
+  height: 10px;
+  transform: translate(-0.012999999999919964px, 0.4550000000000409px);
+}
+.text__jpvej {
+  display: block;
+  font-size: 7.303px;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  line-height: 100%;
+  color: rgba(204, 204, 204, 1);
+  position: absolute;
+  top: 0px;
+  left: 370px;
+  width: 37px;
+  height: 10px;
+  transform: translate(0.15200000000004366px, 0.4550000000000409px);
+}
+.left {
+  width: 136px;
+  height: 77px;
+  display: block;
+  position: absolute;
+  top: 59px;
+  left: 21px;
+}
+.logo {
+  width: 103px;
+  height: 18px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.svg__yyDxN {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 19px;
+  height: 18px;
+  display: block;
+  top: 0%;
+  left: 0%;
+}
+.nftlanding {
+  box-shadow: 0px 0px 0px 0.456px rgba(255, 255, 255, 1);
+  display: block;
+  font-size: 12.781px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 11.59%;
+  left: 24.41%;
+  transform: translate(-0.1769999999999996px, -0.04200000000000004px);
+}
+.svg__giaS {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #999;
+  width: 132.739px;
+  height: 23.005px;
+  display: block;
+  top: 53px;
+  left: 3px;
+}
+.divider {
+  width: 662px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.rectangle9 {
+  background: rgba(84, 84, 84, 1);
+  width: 662px;
+  height: 1px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.header {
+  transform: translate(-0.4819999999999993px, -0.0470000000000006px);
+  width: 1367px;
+  height: 17px;
+  display: block;
+  position: absolute;
+  top: 32px;
+  left: 37px;
+}
+.logo2 {
+  width: 6.61%;
+  height: 103.45%;
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.svg___9Voti {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 17px;
+  height: 17px;
+  display: block;
+  top: 0%;
+  left: 0%;
+}
+.nftlanding2 {
+  box-shadow: 0px 0px 0px 0.456px rgba(255, 255, 255, 1);
+  display: block;
+  font-size: 12.781px;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 6.08%;
+  left: 24.34%;
+  transform: translate(-0.08899999999999864px, -0.08799999999999997px);
+}
+.navigation {
+  transform: translate(-0.3810000000000855px, 0.020999999999997243px);
+  width: auto;
+  height: auto;
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 87.71%;
+  flex-direction: row;
+}
+.navigation > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: calc(0px - 12.781px);
+  width: calc(100% + 12.781px);
+}
+.navigation > :global(.__wab_flex-container) > *,
+.navigation > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.navigation > :global(.__wab_flex-container) > picture > img,
+.navigation
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 12.781px;
+}
+.text__szoxp {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(204, 204, 204, 1);
+  position: relative;
+}
+.text__u0Fr4 {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(204, 204, 204, 1);
+  position: relative;
+}
+.text__amA24 {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(204, 204, 204, 1);
+  position: relative;
+}
+.text__zTkux {
+  display: block;
+  font-size: 9.129px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1;
+  color: rgba(255, 57, 152, 1);
+  position: relative;
+}
+.text__enwgE {
+  display: block;
+  font-size: 43.821px;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0em;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 14.84%;
+  left: 2.56%;
+  width: 54.58%;
+}
+.weMakeSureEveryoneGetsAGame {
+  display: block;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0em;
+  line-height: 1.5;
+  color: rgba(84, 84, 84, 1);
+  position: absolute;
+  top: 31.73%;
+  left: 30.97%;
+  width: 39.79%;
+}
+.svg__wUlwO {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #fff;
+  width: 148px;
+  height: 144px;
+  display: block;
+  top: 15.91%;
+  left: 79.02%;
+}

@@ -1,0 +1,711 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "ivhpgazgw15hPKwKsPQEWr",
+      "projectApiToken": "A7SDxEdqhvjwZl6XlqJauDl8Uv3IRtwpQfdf0kK2GsXGG7ythFDSw7zhgYO1roWwyJPKgMeoaqXDIK2Sne2QQ",
+      "projectName": "GameSchedule",
+      "version": "latest",
+      "cssFilePath": "plasmic/game_schedule/plasmic_game_schedule.module.css",
+      "components": [
+        {
+          "id": "WRO27CV0Sj4U",
+          "name": "LandingPage",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicLandingPage.jsx",
+          "importSpec": {
+            "modulePath": "LandingPage.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicLandingPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "3ykejTCEZN",
+          "name": "RegisterPage",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicRegisterPage.jsx",
+          "importSpec": {
+            "modulePath": "RegisterPage.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicRegisterPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "H5-tROgca9",
+          "name": "LoginPage",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicLoginPage.jsx",
+          "importSpec": {
+            "modulePath": "LoginPage.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicLoginPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "UvGmpU-W8G",
+          "name": "AboutPage",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicAboutPage.jsx",
+          "importSpec": {
+            "modulePath": "AboutPage.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicAboutPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "ewY5BH5W9Z",
+          "name": "HomePage",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicHomePage.jsx",
+          "importSpec": {
+            "modulePath": "HomePage.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicHomePage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "UmjHCA6DKu",
+          "name": "SupportPage",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicSupportPage.jsx",
+          "importSpec": {
+            "modulePath": "SupportPage.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicSupportPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "TP55cfiVbF",
+          "name": "CalendarPage1",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicCalendarPage1.jsx",
+          "importSpec": {
+            "modulePath": "CalendarPage1.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicCalendarPage1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "YADTV8KXzL",
+          "name": "CalendarPage2",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicCalendarPage2.jsx",
+          "importSpec": {
+            "modulePath": "CalendarPage2.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicCalendarPage2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "a2LT-E_ilh",
+          "name": "CalendarPage3",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicCalendarPage3.jsx",
+          "importSpec": {
+            "modulePath": "CalendarPage3.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicCalendarPage3.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "U76_uR0os0",
+          "name": "CalendarPage4",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicCalendarPage4.jsx",
+          "importSpec": {
+            "modulePath": "CalendarPage4.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicCalendarPage4.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "4QRCWYpie3",
+          "name": "ProfilePage",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicProfilePage.jsx",
+          "importSpec": {
+            "modulePath": "ProfilePage.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicProfilePage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Z9zrKSWikx",
+          "name": "FriendListPage",
+          "type": "managed",
+          "projectId": "ivhpgazgw15hPKwKsPQEWr",
+          "renderModuleFilePath": "plasmic/game_schedule/PlasmicFriendListPage.jsx",
+          "importSpec": {
+            "modulePath": "FriendListPage.jsx"
+          },
+          "cssFilePath": "plasmic/game_schedule/PlasmicFriendListPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "dd_eaW0X0s",
+          "name": "Vector1StrokeIcon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Vector1Stroke.jsx"
+        },
+        {
+          "id": "30NfKzi4H_",
+          "name": "SocialIcon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Social.jsx"
+        },
+        {
+          "id": "Wf55B7KAcY",
+          "name": "Ellipse6Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse6.jsx"
+        },
+        {
+          "id": "WhdZmty-yz",
+          "name": "Ellipse7Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse7.jsx"
+        },
+        {
+          "id": "mhDhYsT-Sx",
+          "name": "Ellipse5Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse5.jsx"
+        },
+        {
+          "id": "SM8kv9wd81",
+          "name": "Ellipse4Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse4.jsx"
+        },
+        {
+          "id": "ePB2tCQ5uW",
+          "name": "Vector1Stroke2Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Vector1Stroke2.jsx"
+        },
+        {
+          "id": "ISk7J1ZEms5",
+          "name": "Ellipse8Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse8.jsx"
+        },
+        {
+          "id": "-xDb8fKqBYH",
+          "name": "Vector1Stroke3Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Vector1Stroke3.jsx"
+        },
+        {
+          "id": "DzqyvHh9hmS",
+          "name": "Vector1Stroke4Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Vector1Stroke4.jsx"
+        },
+        {
+          "id": "fAmMWU690ru",
+          "name": "Ellipse9Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse9.jsx"
+        },
+        {
+          "id": "FxVkCwo2o-9",
+          "name": "Ellipse10Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse10.jsx"
+        },
+        {
+          "id": "4RYjsRgFA0D",
+          "name": "Ellipse11Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse11.jsx"
+        },
+        {
+          "id": "krBYBGnuI7M",
+          "name": "Ellipse12Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse12.jsx"
+        },
+        {
+          "id": "TUucQzfwsSD",
+          "name": "Ellipse13Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse13.jsx"
+        },
+        {
+          "id": "4dmmYkUIT3L",
+          "name": "Ellipse14Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse14.jsx"
+        },
+        {
+          "id": "_vIMMB5-4",
+          "name": "Ellipse15Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse15.jsx"
+        },
+        {
+          "id": "AI_-VTX92M",
+          "name": "Ellipse16Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse16.jsx"
+        },
+        {
+          "id": "YC0SEe5Fs",
+          "name": "Ellipse17Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse17.jsx"
+        },
+        {
+          "id": "5sKiHVAP5w",
+          "name": "Ellipse18Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse18.jsx"
+        },
+        {
+          "id": "O2uVwEpw6T",
+          "name": "Ellipse19Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse19.jsx"
+        },
+        {
+          "id": "F4m3gz-3un",
+          "name": "VectorIcon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Vector.jsx"
+        },
+        {
+          "id": "DkmZYFSkDH",
+          "name": "Ellipse20Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse20.jsx"
+        },
+        {
+          "id": "aa16QWTue",
+          "name": "Ellipse21Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse21.jsx"
+        },
+        {
+          "id": "Mgsooamc2m",
+          "name": "Ellipse22Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse22.jsx"
+        },
+        {
+          "id": "Qd0HtMWJoC",
+          "name": "CalendarIcon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Calendar.jsx"
+        },
+        {
+          "id": "MTN5rfULbW",
+          "name": "NavigationIcon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Navigation.jsx"
+        },
+        {
+          "id": "jm6MdHig87",
+          "name": "ArrowRightIcon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__ArrowRight.jsx"
+        },
+        {
+          "id": "EWVxqM5hq7",
+          "name": "EllipseIcon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse.jsx"
+        },
+        {
+          "id": "LWD6uGxiaP",
+          "name": "ArrowLeftIcon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__ArrowLeft.jsx"
+        },
+        {
+          "id": "oaINC_mE27",
+          "name": "ChevronLeftIcon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__ChevronLeft.jsx"
+        },
+        {
+          "id": "J51gYEzBJp",
+          "name": "ArrowRight2Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__ArrowRight2.jsx"
+        },
+        {
+          "id": "qRioISSCsU",
+          "name": "ChevronRightIcon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__ChevronRight.jsx"
+        },
+        {
+          "id": "Gqat7s6WF_",
+          "name": "ArrowLeft2Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__ArrowLeft2.jsx"
+        },
+        {
+          "id": "CZHzv3uxaY",
+          "name": "ArrowLeft3Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__ArrowLeft3.jsx"
+        },
+        {
+          "id": "2fk3Ex8lDn",
+          "name": "ChevronLeft2Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__ChevronLeft2.jsx"
+        },
+        {
+          "id": "30eIxmHayh",
+          "name": "ArrowRight3Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__ArrowRight3.jsx"
+        },
+        {
+          "id": "Cb_AezMncm",
+          "name": "ChevronRight2Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__ChevronRight2.jsx"
+        },
+        {
+          "id": "z1kTwBx_qd",
+          "name": "Vector2Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Vector2.jsx"
+        },
+        {
+          "id": "PrirbzmwPkI",
+          "name": "Vector3Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Vector3.jsx"
+        },
+        {
+          "id": "wqQxD5TEKa",
+          "name": "ChevronDownIcon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__ChevronDown.jsx"
+        },
+        {
+          "id": "yIURuz5zO",
+          "name": "Vector4Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Vector4.jsx"
+        },
+        {
+          "id": "XOTEuvfOhY",
+          "name": "Ellipse23Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse23.jsx"
+        },
+        {
+          "id": "iRnEvPBgFj",
+          "name": "Ellipse24Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse24.jsx"
+        },
+        {
+          "id": "-3qk7d9GbP",
+          "name": "Group14Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Group14.jsx"
+        },
+        {
+          "id": "OWpkiYs2yD",
+          "name": "Ellipse3Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse3.jsx"
+        },
+        {
+          "id": "3vbGjVB6A",
+          "name": "Ellipse25Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse25.jsx"
+        },
+        {
+          "id": "aTrjzZmDWk",
+          "name": "Ellipse26Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse26.jsx"
+        },
+        {
+          "id": "0LIbdLgn4B",
+          "name": "Ellipse27Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse27.jsx"
+        },
+        {
+          "id": "vyhfKk_6sn",
+          "name": "Ellipse28Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse28.jsx"
+        },
+        {
+          "id": "2N8d-cHocv",
+          "name": "Ellipse29Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse29.jsx"
+        },
+        {
+          "id": "AtpdUmeMtw",
+          "name": "Ellipse30Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse30.jsx"
+        },
+        {
+          "id": "yPwifg8wBT",
+          "name": "Ellipse31Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse31.jsx"
+        },
+        {
+          "id": "SNZAq4f_OY",
+          "name": "Ellipse32Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse32.jsx"
+        },
+        {
+          "id": "9sKVQVMdBY",
+          "name": "Ellipse33Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse33.jsx"
+        },
+        {
+          "id": "wJuDmCE68s",
+          "name": "Ellipse34Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse34.jsx"
+        },
+        {
+          "id": "p21Kg5vrFJ",
+          "name": "Ellipse35Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse35.jsx"
+        },
+        {
+          "id": "bzwPwpQQsv",
+          "name": "Ellipse36Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse36.jsx"
+        },
+        {
+          "id": "qdQm5if1O7",
+          "name": "Ellipse37Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse37.jsx"
+        },
+        {
+          "id": "SIkMuRA1UC",
+          "name": "Ellipse38Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse38.jsx"
+        },
+        {
+          "id": "e4-BKCZ2Ik",
+          "name": "Ellipse39Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse39.jsx"
+        },
+        {
+          "id": "botL_L_Ye7",
+          "name": "Ellipse40Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse40.jsx"
+        },
+        {
+          "id": "ujOmus5I5D_",
+          "name": "Ellipse41Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse41.jsx"
+        },
+        {
+          "id": "GK97Ke67yP7",
+          "name": "Ellipse42Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse42.jsx"
+        },
+        {
+          "id": "rXEBmkReB5X",
+          "name": "Ellipse43Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse43.jsx"
+        },
+        {
+          "id": "W4bmMBRYuWk",
+          "name": "Ellipse44Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse44.jsx"
+        },
+        {
+          "id": "8_CZKXeJEso",
+          "name": "Ellipse45Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse45.jsx"
+        },
+        {
+          "id": "4ErFrTw7apM",
+          "name": "Ellipse46Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse46.jsx"
+        },
+        {
+          "id": "z1i3bHlvggV",
+          "name": "Ellipse47Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse47.jsx"
+        },
+        {
+          "id": "4AbcgzgQxNe",
+          "name": "Ellipse48Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse48.jsx"
+        },
+        {
+          "id": "Q8LBGQweFkE",
+          "name": "Ellipse49Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse49.jsx"
+        },
+        {
+          "id": "0SR9VslbT8J",
+          "name": "Ellipse50Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse50.jsx"
+        },
+        {
+          "id": "oxNLcH01Mds",
+          "name": "Ellipse51Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse51.jsx"
+        },
+        {
+          "id": "Gh9zs45WC3S",
+          "name": "Ellipse52Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse52.jsx"
+        },
+        {
+          "id": "oiSdMojwfa3",
+          "name": "Ellipse53Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse53.jsx"
+        },
+        {
+          "id": "6nICf5Cawvo",
+          "name": "Ellipse54Icon",
+          "moduleFilePath": "plasmic/game_schedule/icons/PlasmicIcon__Ellipse54.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "ri3b_AUQz",
+          "name": "Activision_Logo_-_Call_of_Duty_Hub 1",
+          "filePath": "plasmic/game_schedule/images/activisionLogoCallOfDutyHub1.png"
+        },
+        {
+          "id": "qYyZP_EVbR",
+          "name": "origin-1-logo-png-transparent 1",
+          "filePath": "plasmic/game_schedule/images/origin1LogoPngTransparent1.png"
+        },
+        {
+          "id": "OP6VXzDmOS",
+          "name": "Steam_icon_logo 1",
+          "filePath": "plasmic/game_schedule/images/steamIconLogo1.png"
+        },
+        {
+          "id": "N-fRsQL8Ae",
+          "name": "Battlenet_2021_icon 1",
+          "filePath": "plasmic/game_schedule/images/battlenet2021Icon1.png"
+        },
+        {
+          "id": "1cE2OsFy-1",
+          "name": "garena-logo 1",
+          "filePath": "plasmic/game_schedule/images/garenaLogo1.png"
+        },
+        {
+          "id": "0S5sPyUjcv",
+          "name": "H2x1_NSwitchDS_ApexLegends_SeasonBanner 1",
+          "filePath": "plasmic/game_schedule/images/h2X1NSwitchDsApexLegendsSeasonBanner1.jpg"
+        },
+        {
+          "id": "LJYs4eTV8F",
+          "name": "FIFA-22-cover 1",
+          "filePath": "plasmic/game_schedule/images/fifa22Cover1.jpg"
+        },
+        {
+          "id": "GXDfnw3P00",
+          "name": "battlefield-2042-cover-art 1",
+          "filePath": "plasmic/game_schedule/images/battlefield2042CoverArt1.jpg"
+        },
+        {
+          "id": "SnlqBZxj97",
+          "name": "design-82a0ada5-644e-4b87-ae41-88faf9684ea3 (1) 1",
+          "filePath": "plasmic/game_schedule/images/design82A0Ada5644E4B87Ae4188Faf9684Ea311.png"
+        },
+        {
+          "id": "C-vgQjOo0",
+          "name": "Dexerto-Header 1",
+          "filePath": "plasmic/game_schedule/images/dexertoHeader1.jpg"
+        },
+        {
+          "id": "oQNhhgmqlG",
+          "name": "sims-4-hero-banner-desktop-01-ps4-us-09jul19 1",
+          "filePath": "plasmic/game_schedule/images/sims4HeroBannerDesktop01Ps4Us09Jul191.jpg"
+        },
+        {
+          "id": "sj_ajaAhwE",
+          "name": "61155 1",
+          "filePath": "plasmic/game_schedule/images/_611551.png"
+        },
+        {
+          "id": "DTVFInFzmG",
+          "name": "transparent-avatar-icon-human-icon-person-icon-5d678454ee52e4 1",
+          "filePath": "plasmic/game_schedule/images/transparentAvatarIconHumanIconPersonIcon5D678454Ee52E41.png"
+        },
+        {
+          "id": "O_c-VH8tPT",
+          "name": "image 2",
+          "filePath": "plasmic/game_schedule/images/image2.png"
+        },
+        {
+          "id": "pukwy3dQks",
+          "name": "Rectangle 6",
+          "filePath": "plasmic/game_schedule/images/rectangle6.png"
+        },
+        {
+          "id": "oUlLd7jq-0",
+          "name": "Rectangle 7",
+          "filePath": "plasmic/game_schedule/images/rectangle7.png"
+        },
+        {
+          "id": "OyZCKIra7c",
+          "name": "Rectangle 5",
+          "filePath": "plasmic/game_schedule/images/rectangle5.svg"
+        },
+        {
+          "id": "hypUVmx7f",
+          "name": "2830401 1",
+          "filePath": "plasmic/game_schedule/images/_28304011.png"
+        },
+        {
+          "id": "3toW7HpsuG",
+          "name": "Ellipse 2",
+          "filePath": "plasmic/game_schedule/images/ellipse2.svg"
+        },
+        {
+          "id": "zaNvdxaVo",
+          "name": "1500737-middle-removebg-preview 1",
+          "filePath": "plasmic/game_schedule/images/_1500737MiddleRemovebgPreview1.png"
+        },
+        {
+          "id": "8P_nlg9-y",
+          "name": "avatar+human+man+profile+icon-1320085876716628234 1",
+          "filePath": "plasmic/game_schedule/images/avatarhumanmanprofileicon13200858767166282341.png"
+        },
+        {
+          "id": "N2b_ExRsS2",
+          "name": "account_box",
+          "filePath": "plasmic/game_schedule/images/accountBox.svg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "xG_fiwhOtsAHk",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "468jWuuqNHHM4",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "l0oWrOYYJs4HG",
+        "name": "Screen",
+        "projectId": "ivhpgazgw15hPKwKsPQEWr",
+        "contextFilePath": "plasmic/game_schedule/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.284",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.284/dist/plasmic.schema.json"
+}
